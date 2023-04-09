@@ -1,31 +1,89 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-   <!--------- <title>Responsive Navigation Menu</title>------>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <nav>
-      <div class="logo">The Guitar Shop</div>
-      <input type="checkbox" id="click">
-      <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services/Repair</a></li>
-        <li><a href="#">New Arrival</a></li>
-        <li><a href="#">Deals</a></li>
-      </ul>
-    </nav>
-    <div class="content">
-      <div>Responsive Navigation Menu Bar Design</div>
-      <div>using only HTML & CSS</div>
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/algeria" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+    <div class="header-wrapper-outer"> 
+        <div clas="header-wrapper-inner"> 
+         <div class="logo">
+          <img src="/img/logo.png" alt="The Guitar Shop Logo">
+         </div> 
+         <div class="navigation-wrapper"> 
+          <ul class="nav"> 
+           <li> <a href="#">Home</a> </li> 
+           <li> <a href="#">Gears</a> </li> 
+           <li> <a href="#">About</a> </li> 
+           <li> <a href="#">Deals</a> </li> 
+           <li> <a href="#">Service</a> </li> 
+           <li> <a href="#">Repair</a> </li> 
+           <li> 
+            <form id="search" name="search"> 
+             <input type="text" name="q" placeholder="Search"> 
+            </form> 
+        </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div>  
+    </header>
+    <div>
+        <main>
+            <div class="hero-image" style="text-align: center;">
+                <img src="/img//hero-image.jpg" alt="The Guitar Shop Hero Image" class="heroImage">
+            </div>
+            <section>
+                <h2 class="guitar-title">the guitar shop</h2>
+                <br><br>
+                <p class="guitar-text">
+                    Opens on this 25th April
+                </p>
+                <br><br>
+                <div class="buttons-container">
+                    <button class="button-arounder">Read</button>
+                </div>
+            </section>
+        </main>
     </div>
-
-  </body>
+    <section>
+        <div class="product-container" style="margin-top: 80px; margin-bottom: 50px;">
+          <div class="left"> 
+        <img src="img/black and white guitar.webp" alt="guitarblack" class="productImage" width=400px height=200px>
+            <h2 class="productTitle">Fender</h2>
+            <p class="productText">A 1985 series this is one of the best guitar in the fender series.This guitar made history.</p>
+            <p class="productPrice">$12,000</p>
+          </div>
+          <div class="middle">
+            <img src="img/gibson.jpg" alt="Gibson" class="productImage" width="400px",height="150px">
+            <h2 class="productTitle">Gibson xv-2</h2>
+            <p class="productText">This gibson series is known for its orange finish and his maple wodden neck.</p>
+            <p class="productPrice">$1,985</p>
+          </div>
+          <div class="right">
+            <img src="/img/img.jpg" alt="taylor" class="productImage">
+            <h2 class="productTitle">taylor-guitar</h2>
+            <p class="productText">this 2007 taylor series is the perfect option for a begginers</p>
+            <p class="productPrice">PKR1,749.0</p>
+            </div>
+        </div>
+        <article>
+          <h2 class="followTitle">Follow Us</h2>
+          <br>
+          <div class="icons">
+            <img src="/assets/facebook_icon.png" alt="Facebook Icon" class="social-icons">
+            <img src="/assets/youtube_icon.png" alt="YouTube Icon" class="social-icons">
+            <img src="/assets/instagram_icon.png" alt="Instagram Icon" class="social-icons">
+            </div>
+        </article>
+        </div>
+        </div>
+    </section>
+    
+</body>
 </html>
